@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+  background-position: top -600px left -250px, bottom -800px right -250px;
+  background-repeat: no-repeat;
+  background-color: #19a2ae;
+  background-color: hsl(185, 75%, 39%);
+}
+
+span {
+  color: black;
+  font-weight: 700;
+}
+
+/***************CLASS SELECTORS**************/
+.card {
+  background-color: white;
+  margin: 10% auto 0 auto;
+  border: none;
+  border-radius: 16px;
+  max-width: 320px;
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.card-break-stats {
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+  background-color: hsl(0, 0%, 88%);
+  position: relative;
+  bottom: 50px;
+}
+
+.card-pattern {
+  border: none;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  max-height: 125px;
+  width: 320px;
+}
+
+.card-stats {
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+  padding: 5px;
+}
+
+.stats-inline {
+  display: inline-block;
+}
+
+.stat-name {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #969696;
+  color: hsl(0, 0%, 59%);
+  position: relative;
+  bottom: 15px;
+}
+
+.stat-number {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.user-image {
+  border-radius: 100rem;
+  border: 5px solid white;
+  position: relative;
+  left: 34%;
+  bottom: 53.5px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.user-info {
+  color: #969696;
+  color: hsl(0, 0%, 59%);
+}
+
+.user-info-name {
+  text-align: center;
+  position: relative;
+  bottom: 57px;
+  font-size: 1.2rem;
+}
+
+.user-info-place {
+  text-align: center;
+  position: relative;
+  bottom: 63px;
+  font-size: 0.8125rem;
+}
